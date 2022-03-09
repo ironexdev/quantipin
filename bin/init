@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ln -s $(pwd)/docker/bin $(pwd)/bin/docker;

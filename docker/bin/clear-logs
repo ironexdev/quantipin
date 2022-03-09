@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. bin/variables
+
+find ${APP_LOG_DIRECTORY} \! -name ".gitignore" -delete
+find ${HTTP_PROXY_LOG_DIRECTORY} \! -name ".gitignore" -delete

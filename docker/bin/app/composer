@@ -1,0 +1,10 @@
+#!/bin/sh
+
+. bin/variables
+
+cd ${DOCKER_DIRECTORY}
+
+# Run composer in app container
+docker-compose exec -w /home/dockeruser/app app composer $@
+
+cd ${QUANTIPIN_DIRECTORY}

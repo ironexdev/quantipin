@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. bin/variables
+
+# Run Symfony Console command in app service
+${DOCKER_BIN_DIRECTORY}/app/run php src/console.php $@
