@@ -8,13 +8,14 @@ It contains two rootless containers
 
 ## How to init development environment
 
-1) Run `git clone TODO`
+1) Run `git clone git@github.com:ironexdev/quantipin.git`
 
 2) Init
 - `bin/init`
 
 3) Add following to etc/hosts
 - `127.0.0.1 quantipin.local`
+- `127.0.0.1 adminer.quantipin.local`
 - Or customize the url in docker/images/http-proxy/default.conf
 
 4) Generate Secrets
